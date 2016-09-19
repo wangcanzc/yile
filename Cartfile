@@ -1,0 +1,4 @@
+github "Alamofire/Alamofire"
+github "goktugyil/EZSwiftExtensions"
+github "facebook/AsyncDisplayKit"
+github "onevcat/Kingfisher" ~> 2.4

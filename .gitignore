@@ -20,7 +20,9 @@ xcuserdata/
 ## Other
 *.moved-aside
 *.xcuserstate
-
+/Cartfile.resolved
+/Carthage/
+/.DS_Store
 ## Obj-C/Swift specific
 *.hmap
 *.ipa
