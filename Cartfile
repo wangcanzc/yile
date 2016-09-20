@@ -1,4 +1,5 @@
-github "Alamofire/Alamofire"
-github "goktugyil/EZSwiftExtensions"
-github "facebook/AsyncDisplayKit"
-github "onevcat/Kingfisher" ~> 2.4
+github "Alamofire/Alamofire" ~> 3.5.0
+github "facebook/AsyncDisplayKit" ~> 1.9.90
+github "onevcat/Kingfisher" ~> 2.6.0
+github "ReactiveX/RxSwift" ~> 2.6.0
+# github "goktugyil/EZSwiftExtensions" ~> 1.4

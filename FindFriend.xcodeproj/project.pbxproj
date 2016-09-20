@@ -15,6 +15,12 @@
 		5B26E7B11D78726700705DA6 /* FFTitleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B26E7AF1D78726700705DA6 /* FFTitleTableViewCell.xib */; };
 		5B26E7B51D78833A00705DA6 /* FFHomeKeyWordTagCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B26E7B31D78833A00705DA6 /* FFHomeKeyWordTagCollectionViewCell.swift */; };
 		5B26E7B61D78833A00705DA6 /* FFHomeKeyWordTagCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B26E7B41D78833A00705DA6 /* FFHomeKeyWordTagCollectionViewCell.xib */; };
+		5B77E7C81D91378A0077B6BD /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B77E7C11D91378A0077B6BD /* Alamofire.framework */; };
+		5B77E7C91D91378A0077B6BD /* AsyncDisplayKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B77E7C21D91378A0077B6BD /* AsyncDisplayKit.framework */; };
+		5B77E7CA1D91378A0077B6BD /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B77E7C31D91378A0077B6BD /* Kingfisher.framework */; };
+		5B77E7CB1D91378A0077B6BD /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B77E7C41D91378A0077B6BD /* RxBlocking.framework */; };
+		5B77E7CC1D91378A0077B6BD /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B77E7C51D91378A0077B6BD /* RxCocoa.framework */; };
+		5B77E7CD1D91378A0077B6BD /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B77E7C61D91378A0077B6BD /* RxSwift.framework */; };
 		5B7C6C481D5C4B55007779C5 /* FFKeywordCellNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7C6C471D5C4B55007779C5 /* FFKeywordCellNode.swift */; };
 		5B7C6C4A1D5C7E56007779C5 /* FFLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7C6C491D5C7E56007779C5 /* FFLocationManager.swift */; };
 		5B7C6C4C1D5CE768007779C5 /* FFImageCellNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7C6C4B1D5CE768007779C5 /* FFImageCellNode.swift */; };
@@ -90,6 +96,13 @@
 		5B26E7AF1D78726700705DA6 /* FFTitleTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FFTitleTableViewCell.xib; sourceTree = "<group>"; };
 		5B26E7B31D78833A00705DA6 /* FFHomeKeyWordTagCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FFHomeKeyWordTagCollectionViewCell.swift; sourceTree = "<group>"; };
 		5B26E7B41D78833A00705DA6 /* FFHomeKeyWordTagCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FFHomeKeyWordTagCollectionViewCell.xib; sourceTree = "<group>"; };
+		5B77E7C11D91378A0077B6BD /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		5B77E7C21D91378A0077B6BD /* AsyncDisplayKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AsyncDisplayKit.framework; path = Carthage/Build/iOS/AsyncDisplayKit.framework; sourceTree = "<group>"; };
+		5B77E7C31D91378A0077B6BD /* Kingfisher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kingfisher.framework; path = Carthage/Build/iOS/Kingfisher.framework; sourceTree = "<group>"; };
+		5B77E7C41D91378A0077B6BD /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
+		5B77E7C51D91378A0077B6BD /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		5B77E7C61D91378A0077B6BD /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		5B77E7C71D91378A0077B6BD /* RxTests.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTests.framework; path = Carthage/Build/iOS/RxTests.framework; sourceTree = "<group>"; };
 		5B7C6C471D5C4B55007779C5 /* FFKeywordCellNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FFKeywordCellNode.swift; sourceTree = "<group>"; };
 		5B7C6C491D5C7E56007779C5 /* FFLocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FFLocationManager.swift; sourceTree = "<group>"; };
 		5B7C6C4B1D5CE768007779C5 /* FFImageCellNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FFImageCellNode.swift; sourceTree = "<group>"; };
@@ -168,6 +181,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B77E7C81D91378A0077B6BD /* Alamofire.framework in Frameworks */,
+				5B77E7C91D91378A0077B6BD /* AsyncDisplayKit.framework in Frameworks */,
+				5B77E7CA1D91378A0077B6BD /* Kingfisher.framework in Frameworks */,
+				5B77E7CB1D91378A0077B6BD /* RxBlocking.framework in Frameworks */,
+				5B77E7CC1D91378A0077B6BD /* RxCocoa.framework in Frameworks */,
+				5B77E7CD1D91378A0077B6BD /* RxSwift.framework in Frameworks */,
 				5BB566C21D5B8FF700C305E4 /* CoreLocation.framework in Frameworks */,
 				5BB566C01D5B8FEA00C305E4 /* MapKit.framework in Frameworks */,
 				FB4D6D94A7FFC02F2D1C16F6 /* Pods_FindFriend.framework in Frameworks */,
@@ -194,6 +213,13 @@
 		10A401A99DC6532A4D56C3BF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5B77E7C11D91378A0077B6BD /* Alamofire.framework */,
+				5B77E7C21D91378A0077B6BD /* AsyncDisplayKit.framework */,
+				5B77E7C31D91378A0077B6BD /* Kingfisher.framework */,
+				5B77E7C41D91378A0077B6BD /* RxBlocking.framework */,
+				5B77E7C51D91378A0077B6BD /* RxCocoa.framework */,
+				5B77E7C61D91378A0077B6BD /* RxSwift.framework */,
+				5B77E7C71D91378A0077B6BD /* RxTests.framework */,
 				8546110FB51013C6C652968C /* Pods_FindFriend.framework */,
 			);
 			name = Frameworks;
@@ -574,6 +600,12 @@
 			files = (
 			);
 			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/AsyncDisplayKit.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Kingfisher.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxBlocking.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
 			);
 			outputPaths = (
 			);
