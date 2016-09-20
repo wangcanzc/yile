@@ -23,6 +23,9 @@ xcuserdata/
 /Cartfile.resolved
 /Carthage/
 /.DS_Store
+/Podfile.lock
+/Pods/
+/FindFriend.xcworkspace
 ## Obj-C/Swift specific
 *.hmap
 *.ipa
